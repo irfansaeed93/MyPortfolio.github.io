@@ -1,0 +1,397 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.jumbtron {
+    margin: 0px !important;
+    padding: 0px !important;
+    border-radius: 0px !important;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+
+
+/* Set the border color */
+
+.custom-toggler.navbar-toggler {
+    border-color: #339AEA;
+}
+
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 51,154,234)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/* Create a sticky/fixed navbar */
+#navbar {
+    overflow: hidden;
+    /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s;
+    /* Adds a transition effect when the padding is decreased */
+    position: fixed;
+    /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0;
+    /* At the top */
+    z-index: 99;
+}
+
+
+.Nav-color {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
+}
+
+
+ul li {
+    margin: 10px;
+}
+
+.nav-link {
+    color: white !important;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.nav-link:hover {
+    color: #339AEA !important;
+}
+
+.nav-link.active {
+    color: #339AEA !important;
+}
+
+
+/* /navbar */
+
+
+/* Landing page Min text Start */
+
+
+.landing-page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../images/banner.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.Landing-text {
+    width: 65%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.Landing-text h1 {
+    color: #339AEA;
+    font-size: 64px;
+    text-align: center;
+}
+
+.Landing-text h4 {
+    color: white;
+    text-align: center;
+
+
+}
+
+
+
+
+
+/* Landing page Main text end */
+
+
+
+/* about Me setion start */
+/* about Me setion */
+
+
+
+.aboutMe {
+    background-color: white !important;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 70%;
+    margin: 20px 0px 50px 15%;
+
+}
+
+.firm-text p {
+    line-height: 25px;
+    font-weight: 600;
+}
+
+#About-heading span {
+    color: #339AEA;
+
+}
+
+.Center-heading {
+    text-align: center;
+    padding: 30px 0px 20px 0px;
+
+}
+
+
+
+.Irfan {
+    font-weight: 700;
+    text-align: center;
+    margin: -30px 0px 30px 0px;
+
+}
+
+/* skills section */
+.skills li img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    vertical-align: middle;
+
+
+}
+
+.skills li {
+    display: inline;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+/* skills section */
+
+
+/* about Me setion */
+/* about Me setion end */
+
+/* my prject section start*/
+/* my prject section */
+
+
+#Project-Part {
+    background-color: white !important;
+
+}
+
+
+/* my prject section End*/
+/* my prject section */
+
+
+
+
+
+/* contact part */
+
+.Clast {
+    background-color: white !important;
+}
+
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.social-links li {
+    margin: 10px 25px 10px 0;
+    display: inline-block;
+    font-size: 36px;
+}
+
+.social-links {
+    margin: 0 0 20px;
+    text-align: left;
+}
+
+.Center-Contact {
+    text-align: center;
+    margin-top: -80px;
+    margin-bottom: 60px;
+
+
+}
+
+.list-icons li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.fa-phone-alt,
+.fa-envelope {
+    color: #339AEA;
+}
+
+
+.end {
+    background-color: #FAFAFA !important;
+    height: 80px;
+    margin-bottom: -50px;
+}
+
+
+.copy h5 {
+    text-align: center;
+    font-size: 16px;
+    color: #0009;
+
+}
+
+
+
+.social-links a {
+    color: black;
+    margin-left: 15px;
+    transition: 0.5s ease;
+    font-size: 50px;
+
+}
+
+.social-links a:hover {
+    color: #339AEA;
+}
+
+.tech li {
+    list-style: none;
+}
+
+.fa-check-circle {
+    color: #339AEA;
+    padding-right: 10px;
+}
+
+/* contact part */
+
+
+
+
+
+
+
+
+
+/* Media Query Start From Here */
+/* Media Query Start From Here */
+
+
+
+
+
+/* Maha small devices */
+@media (max-width: 360px) {
+    ul.skills li img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .Landing-text h1 {
+
+        font-size: 50px;
+    }
+
+    .Landing-text h4 {
+        font-size: 17px;
+
+    }
+
+    .skills {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+
+    .social-links a {
+        font-size: 35px;
+
+    }
+
+    .list-icons li {
+        font-size: 12px;
+    }
+
+}
+}
+
+/* Extra small devices */
+@media (min-width: 361px) and (max-width: 450px) {
+    ul.skills li img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .Landing-text h1 {
+        font-size: 55px;
+    }
+
+    .Landing-text h4 {
+        font-size: 17px;
+    }
+
+    .skills {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .list-icons li {
+        font-size: 12px;
+    }
+}
+
+
+/* Small devices */
+@media (min-width: 451px) and (max-width: 540px) {
+    ul.skills li img {
+        width: 38px;
+        height: 38px;
+    }
+
+    .Landing-text h1 {
+        font-size: 55px;
+    }
+
+    .Landing-text h1 {
+
+        font-size: 57px;
+    }
+
+    .Landing-text h4 {
+        font-size: 23px;
+    }
+}
+
+
+/* Medium devices */
+@media (min-width: 541px) and (max-width: 768px) {}
+
+
+/* Large devices */
+@media (min-width: 769px) and (max-width: 1024px) {}
+
+
+/* Extra large devices  */
+@media (min-width: 1025px) and (max-width: 540px) {}
+
+
+/* Extra large devices  */
+@media (min-width: 1025px) and (max-width: 1200px) {}
+
+
+/* Maha large devices  */
+@media (min-width: 1201px) {}
